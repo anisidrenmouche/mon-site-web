@@ -1,0 +1,128 @@
+
+.heading-site{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.COLORED
+{
+	
+}
+
+
+/*header
+*/
+.header{
+	width: 100%;
+	margin-left: -3px;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top: 5;
+	z-index: 999; /*header pour qu'il soit au dessus de tout */
+}
+
+.header .header-logo{
+
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 30px;
+}
+
+.header .header-menu{
+
+	float: right;
+	margin-right: 30px;
+}
+
+.header .header-menu a {
+
+	margin-right: 15px;
+	color: #ffffff;
+}
+
+.header .header-menu a:hover {
+
+	color:#1abc9c;
+}
+
+
+.banner{
+	margin-top: -20px;
+}
+
+.banner .banner-image{
+
+	position: relative;
+}
+
+.banner .banner-content{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 40%;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2 {
+	color: #e9f3f4;
+}
+
+
+.about .about-single-element i{
+
+	font-size: 45px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+ .tile is-parent{
+
+	background-color: #4D60FF;
+}
+
+
+
+
+.about .about-single-element{
+	text-align: center;
+}
+
+
+.about .about-single-element p{
+	text-align: left;
+	margin-top: 20px;
+}
+
+/*footer
+*/
+
+.footer .footer-information{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+
+}
+
+ .footer .footer-information ul{
+ 	padding: 0;
+ }
+
+.footer .footer-information ul li {
+
+   display: inline-block;
+   list-style-type: none;
+}
+
+
+
+@media screen and (max-width: 624px){
+
+	.banner .banner-content h1{
+		display: none;
+	}
+}

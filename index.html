@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Anis IDREMOUCHE  | Mon portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">Mon portfolio</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Accueil</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">Compétence </a></li>
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Formation</a></li>
+              <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Expérience</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">Projets</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <div data-animate="fadeInDown" class="logo"><img src="img/favicon.png" alt="logo" width="160" style="
+    border-radius: 50% 20% / 10% 40%;">
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Bienvenue !</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">Voici mon univers</p>
+      </div>
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">Langages de programmation</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-12">
+            <div class="skill-item">
+              <div class="progress-title">HTML</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="10" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">CSS</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 45%" aria-valuenow="70" aria-valuemin="30" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Bootstrap</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 50%" aria-valuenow="70" aria-valuemin="30" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">PHP</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 30%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">JavaScript</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 40%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Angular.JS</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 30%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Symfony</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 40%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+              </div>
+            </div>
+            <h2 data-animate="fadeInDown" class="title">Autres </h2>
+        </header>
+        <div class="skill-item">
+              <div class="progress-title">GitHub</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title"> Adobe Photoshop </div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">After Effects</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 40%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title"> Adobe Premiere Pro </div>
+              <div class="progress">
+                <div role="progressbar" style="width: 50%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+              </div>
+            </div>
+          <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/about.jpg" alt="This is me - IT worker" class="image rounded-circle img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Service-->
+    <section id="services" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">Formation</h2>
+        </header>
+        <div class="row services text-center">
+          <div data-animate="fadeInUp" class="col-lg-3">
+
+            <div class="icon">
+              <img src="img/BAC.png" style="border-radius: 10px 100px / 120px;"> </div>
+            <h3 class="heading mb-3 text-400">Baccalauréat-2013</h3>
+            <p class="text-left description">
+              Gestion logistique, des matériaux et de la chaîne d'approvisionnement</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3">
+            <div class="icon">
+              <img src="img/cnam.png" style="border-radius: 10% 30% 50% 70%;"> </div>
+            <h3 class="heading mb-3 text-400">Passe-Numérique- 2018 </h3>
+            <p class="text-left description"> Programmation informatique, applications spécifiques </p>
+              
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3">
+            <div class="icon">
+              <img src="img/dawan.jpg" style=" border-radius: 25% 10%;"> </div>
+            <h3 class="heading mb-3 text-400">FORMATION DÉVELOPPEUR FULL STACK- 2019</h3>
+            <p class="text-left description">Programmation / développeur informatique, général.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3">
+            <div class="icon">
+              <img src="img/wis.png" style=" border-radius:60px;"> </div>
+            <h3 class="heading mb-3 text-400">Bachelor's degree- 2019</h3>
+            <p class="text-left description">Programmation informatique</p>
+          </div>
+        </div>
+        <hr data-animate="fadeInUp">
+        <div data-animate="fadeInUp" class="text-center">
+          <p class="lead">Voulez-vous en savoir plus ou simplement discuter de quelque chose?</p>
+          <p><a href="#contact" class="btn btn-outline-light link-scroll">contactez moi</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials-->
+    <section id="testimonials" class="testimonials-section bg-gray">
+      <div class="container">
+        <header class="text-center mb-2">
+          <h2 data-animate="fadeInUp" class="title">Expérience</span></h2>
+          <p data-animate="fadeInUp" class="lead">Il est hélas devenu évident aujourd'hui que notre technologie a dépassé notre humanité</p>
+        </header>
+        <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+              <h4> Actuellement en formation chez Dawan </h4>
+                  <p> Afin de réaliser un projet professionnel et d’avoir une expérience dans développement, avec un groupe nous développons actuellement un site web ludique pour enfant avec la création de plusieurs mini jeux.</p>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-1.jpg">
+                  <h5>Jérome</h5>
+                  <p>CEO.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <h4> Développeur Full Stack-Freelance. </h4>
+                  <p>Freelance Indépendant Région de Paris, France</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-2.jpg">
+                  <h5>Freelance</h5>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                 <h4> Webdesigner Graphiste-Mairie. </h4>
+                  <p> Préparer ses interviews et trouver les bons interlocuteurs.</p>
+                  <p> Choisir un angle pour traiter le sujet. </p>
+                  <p> Collecter l'information et la vérifier.</p>
+                  <p> Respecter les consignes éditoriales de son média.</p>
+                
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-3.jpg">
+                  <h5>Damiens</h5>
+                  <p>Directeur</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                 <h4> Monteur Vidéo Indépendant-Youtube. </h4>
+                  <p> Visionner les rushes du tournage et sélectionner les prises pour le montage selon les indications et les intentions artistiques du réalisateur. .</p>
+                  <p> Composer les ambiances et les effets sonores d'un produit audiovisuel.. </p>
+                  <p> Synchroniser les sons directs avec les images pour le montage du film.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-4.jpg">
+                  <h5>Susan Wojcicki</h5>
+                  <p>CEO</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Statistics-->
+    <section id="statistics" data-dir="up" style="background: url(&quot;img/parallax.jpg&quot;);" class="statistics-section text-white parallax parallax">
+      <div class="container">
+        <div class="row showcase text-center">
+          <div data-animate="fadeInUp" class="col-lg-4 col-md-3">
+            <div class="item">
+              <div class="icon"><i class="fa fa-align-justify"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">5</span><br> création de sites internet </h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 col-md-3">
+            <div class="item">
+              <div class="icon"><i class="fa fa-users"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">5</span><br>Satisfaction des clients </h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 col-md-3">
+            <div class="item">
+              <div class="icon"><i class="fa fa-copy"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">5</span><br>Réalisations et Projets</h5>
+            </div>
+          </div>
+      </div>
+      <div class="dark-mask"></div>
+    </section>
+    <!--
+    *** REFERENCES IMAGE ***
+    _________________________________________________________
+    -->
+    <section id="references">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="mb-5 text-center">
+            <h2 data-animate="fadeInUp" class="title">Projets</h2>
+            <p data-animate="fadeInUp" class="lead">J'ai travaillé principalement la réalisation d'un site web promo que voici.</p>
+          </div>
+          <ul id="filter" data-animate="fadeInUp">
+            <li class="active"><a href="#" data-filter="all">Tout</a></li>
+            <li><a href="#" data-filter="webdesign">Cnam Projets</a></li>
+            <li><a href="#" data-filter="seo">En cours</a></li>
+            <li><a href="#" data-filter="marketing">CV </a></li>
+            
+          </ul>
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Reference detail-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row">
+                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-1.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Projet site web </h3>
+                            <p> Cliquez ici</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                        <p>Afin de validé notre diplôme, nous avons réaliser avec mon groupe un site web de promotion afin que celui-ci soit publier sur le site du Cnam.</p>
+                        
+                        <p class="buttons text-center"><a href="https://confident-payne-142b11.netlify.com/index.html" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-7.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Project Dawan en cours  </h3>
+                            <p> Cliquez ici</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/CHUwxte.jpg" class="sr-only reference-description">
+                        <p>Afin de réaliser un projet professionnel et d’avoir une expérience dans développement, avec un groupe nous développons actuellement un site web ludique pour enfant avec la création de plusieurs mini jeux.</p>
+                        <!-- <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-4.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title"> CV </h3>
+                            <p>Cliquez ici</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/adm_cv_bdef-770x400.png" class="sr-only reference-description">
+                        
+                        <p class="buttons text-center"><a href="javascript:void(0);" download></i><a href="img/CV Anis Idrenmouche 001.pdf" download>Telecharger</a><i class="fa fa-download"></i></a></p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Customers-->
+    
+    <!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title"> Contactez-moi </h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form id="contact-form" method="post" action="mail.php">
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="firstname" placeholder="Prénom *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="lastname" placeholder="Nom *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="email" placeholder="Email *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="phone" placeholder="N° de téléphone" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                    <textarea name="message" placeholder="Message *" rows="4" required="required" class="form-control"></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-outline-primary">Envoyer</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map-->
+    <div id="map"></div>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left">
+            <p class="social">
+              <a href="https://www.facebook.com/" class="external facebook wow fadeInUp">
+              <i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/anisidre/" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a>
+              <a href="https://twitter.com/anisidree" class="external facebook wow fadeInUp"> <i class="fa fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/anis-idrenmouche-5a84b2183/" class="external facebook wow fadeInUp"> <i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/anisidrenmouche" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-github"></i></i></a>
+              <a href="https://outlook.live.com/mail/inbox" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
+          </div>
+          <!-- /.6-->
+          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+            <p>© 2019 Anis IDREMOUCHE</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script> 
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
